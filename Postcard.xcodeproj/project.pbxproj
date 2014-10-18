@@ -13,6 +13,8 @@
 		3EF9301319F1E916000FBA23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9301219F1E916000FBA23 /* Images.xcassets */; };
 		3EF9301619F1E916000FBA23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9301419F1E916000FBA23 /* LaunchScreen.xib */; };
 		3EF9302219F1E917000FBA23 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9302119F1E917000FBA23 /* PostcardTests.swift */; };
+		3EF9302C19F1EFBC000FBA23 /* 2014-08-03 11.28.17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9302B19F1EFBC000FBA23 /* 2014-08-03 11.28.17.jpg */; };
+		3EF9302E19F1F47C000FBA23 /* maple-leaf-stamp-canada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9302D19F1F47C000FBA23 /* maple-leaf-stamp-canada.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3EF9301B19F1E917000FBA23 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF9302019F1E917000FBA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EF9302119F1E917000FBA23 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		3EF9302B19F1EFBC000FBA23 /* 2014-08-03 11.28.17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2014-08-03 11.28.17.jpg"; sourceTree = "<group>"; };
+		3EF9302D19F1F47C000FBA23 /* maple-leaf-stamp-canada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maple-leaf-stamp-canada.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		3EF9300919F1E916000FBA23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3EF9302D19F1F47C000FBA23 /* maple-leaf-stamp-canada.jpg */,
+				3EF9302B19F1EFBC000FBA23 /* 2014-08-03 11.28.17.jpg */,
 				3EF9300A19F1E916000FBA23 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				3EF9301119F1E916000FBA23 /* Main.storyboard in Resources */,
 				3EF9301619F1E916000FBA23 /* LaunchScreen.xib in Resources */,
+				3EF9302C19F1EFBC000FBA23 /* 2014-08-03 11.28.17.jpg in Resources */,
+				3EF9302E19F1F47C000FBA23 /* maple-leaf-stamp-canada.jpg in Resources */,
 				3EF9301319F1E916000FBA23 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
