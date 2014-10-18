@@ -58,6 +58,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maple-leaf-stamp-canada.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8Mc-80-oRe">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="265" y="146" width="105" height="80"/>
+                                </variation>
+                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Entrez un nom" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u49-ho-wCD">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -71,7 +77,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="303" width="341" height="90"/>
+                                    <rect key="frame" x="16" y="290" width="341" height="90"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S30-3W-v4j">
@@ -97,30 +103,35 @@
                                     <rect key="frame" x="16" y="80" width="341" height="58"/>
                                 </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maple-leaf-stamp-canada.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8Mc-80-oRe">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdG-no-vUX">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="265" y="146" width="105" height="80"/>
+                                    <rect key="frame" x="208" y="167" width="42" height="21"/>
                                 </variation>
-                            </imageView>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="8Mc-80-oRe"/>
                                 <exclude reference="u49-ho-wCD"/>
                                 <exclude reference="XSU-wq-bxR"/>
                                 <exclude reference="S30-3W-v4j"/>
                                 <exclude reference="hJr-Bb-hcH"/>
-                                <exclude reference="8Mc-80-oRe"/>
+                                <exclude reference="UdG-no-vUX"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
+                                <include reference="8Mc-80-oRe"/>
                                 <include reference="u49-ho-wCD"/>
                                 <include reference="XSU-wq-bxR"/>
                                 <include reference="S30-3W-v4j"/>
                                 <include reference="hJr-Bb-hcH"/>
-                                <include reference="8Mc-80-oRe"/>
+                                <include reference="UdG-no-vUX"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="u49-ho-wCD" id="l0F-QL-vkX"/>
                         <outlet property="mailButton" destination="S30-3W-v4j" id="qxS-aU-hXl"/>
                         <outlet property="messageLabel" destination="hJr-Bb-hcH" id="H7q-QZ-pyG"/>
+                        <outlet property="nameLabel" destination="UdG-no-vUX" id="O8D-fd-iYd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
